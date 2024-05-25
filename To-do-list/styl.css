@@ -1,0 +1,71 @@
+body { 
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.container { 
+    width: 100%;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do-list { 
+    background-color: white;
+    width: 60vh;
+    height: 40vh;
+    border-radius: 25px;
+}
+
+.to-do-title { 
+    font-size: 170%;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.input-wrapper input { 
+    padding: 18px 20px;
+    width: 40vh;
+    border-radius: 25px;
+    border: none;
+    background-color: #e6e6e6;
+}
+
+.input-wrapper input:focus { 
+    outline: none;
+}
+
+.input-wrapper button { 
+    padding: 15px 20px;
+    width: 130px;
+    border-radius: 25px;
+    border: none;
+    background-color: #66b3ff;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-add-to-list {
+    position: absolute;
+    top: 50%;
+    right: -80px;
+    transform: translateY(-50%);
+}
+
+.list { 
+    width: 50vh;
+    height: 190px;
+    margin: 30px auto;
+    
+}
